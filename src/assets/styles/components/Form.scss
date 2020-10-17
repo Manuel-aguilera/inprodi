@@ -1,0 +1,43 @@
+@import '../Vars.scss';
+
+.container_form{
+    margin: 0 1em;
+}
+
+.logo_form {
+    width: 80px;
+    margin-top: 2em;
+    // margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.title_form {
+    font-size: $title-form;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.email_form label, .password_form label{
+    padding-bottom: 15px;
+}
+
+.submit_form:not(:disabled) {
+    margin-top: 1em;
+    font-size: $form-size;
+    font-weight: 600;
+    padding: 7px 50px;
+}
+
+.footer_form {
+    text-align: center;
+}
+
+.signup_form button:not(:disabled), .signup_form label:not(:disabled) {
+    font-size: $form-size;
+	font-weight: 600;
+    padding: 0px;
+}
+
+.signup_form {
+    margin-bottom: 0rem;
+}
