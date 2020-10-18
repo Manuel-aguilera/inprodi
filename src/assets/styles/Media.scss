@@ -1,0 +1,12 @@
+$breakpoint-tablet: 767px;
+@media (max-width: $breakpoint-tablet) {
+  .login_form  {
+    // background-color: #171e38;
+    background-image: url("https://i.imgur.com/yoqZ9BZ.png");
+    // background-color: transparent;
+   }
+   
+   .login_img {
+    display: none;
+   }
+}
